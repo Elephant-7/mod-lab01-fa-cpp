@@ -1,11 +1,12 @@
 // Copyright 2022 UNN-IASR
 #include <iostream>
+#include <math.h>
 #include "fun.h"
 
 unsigned int faStr1(const char* str) {
     if (!str) return 0;
-    unsigned int count =0;
-    bool inWord=false;
+    unsigned int count = 0;
+    bool inWord = false;
     bool hasDigit = false;
 
     for (int i = 0; str[i] != '\0'; ++i) {
