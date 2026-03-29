@@ -1,7 +1,7 @@
 // Copyright 2022 UNN-IASR
 #include <iostream>
-#include <math.h>
 #include "fun.h"
+#include <math.h>
 
 unsigned int faStr1(const char* str) {
     if (!str) return 0;
